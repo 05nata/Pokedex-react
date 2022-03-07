@@ -6,7 +6,7 @@ import DefaulLayout from "../layouts/DefaultLayout";
  */
 
  export const NotFound = () => (
-     <DefaulLayout>
+     <DefaulLayout title="404">
          <h1>Not Found Page</h1>
      </DefaulLayout>
  );

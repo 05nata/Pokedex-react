@@ -3,14 +3,18 @@ import { Helmet } from "react-helmet";
 
 /**
  * SEO Component
+ * @param{{title: string}} props
  * @returns {JSX.Element}
  */
-export const SEO = () => (
+export const SEO = (props) => {
+    let title = props.title?`Pokedex - ${props.title}`:'Pokedex';
+    return (
     <Helmet>
-        <meta charSet='UTF-8' />
+        <meta charset='UTF-8' />
         <meta name='viewport' content='width=device-widh, initial-scale=1.0'/>
-        <title>Pokedex</title>
+        <title>{title}</title>
+        <link rel="favicon" href='/favicon.ico' />
     </Helmet>
-);
+)};
 
 export default SEO;

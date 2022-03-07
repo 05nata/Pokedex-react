@@ -4,6 +4,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import PokemonDetails from './components/pages/PokemonDetails';
 import NotFound from './components/pages/NotFound';
+import './assets/css/app.css';
 
 /**
  * App component 
