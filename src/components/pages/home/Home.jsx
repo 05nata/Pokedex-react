@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaulLayout from '../../templates/default-layout/DefaultLayout';
+import DefaulLayout from 'components/templates/default-layout/DefaultLayout';
 import { Link } from 'react-router-dom';
 
 /**

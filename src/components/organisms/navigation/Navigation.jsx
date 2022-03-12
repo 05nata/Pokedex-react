@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBrand from '../../molecules/nav-brand/NavBrand';
-import NavItems from '../../molecules/nav-items/NavItems';
+import NavBrand from 'components/molecules/nav-brand/NavBrand';
+import NavItems from 'components/molecules/nav-items/NavItems';
 import './Navigation.css';
 
 /**
