@@ -6,8 +6,8 @@ import { Helmet } from "react-helmet";
  * @param{{title: string}} props
  * @returns {JSX.Element}
  */
-export const SEO = (props) => {
-    let title = props.title?`Pokedex - ${props.title}`:'Pokedex';
+const SEO = (props) => {
+    let title = props.title ? `Pokedex - ${props.title}`:'Pokedex';
     return (
     <Helmet>
         <meta charset='UTF-8' />

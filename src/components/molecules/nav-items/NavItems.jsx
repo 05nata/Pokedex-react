@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
  * Navigation items component
  * @returns {JSX.Element}
  */
-export const NavItems = () => (
+const NavItems = () => (
     <div>
-        <Link to= '/about'>Acerca de</Link>
+        <Link to='/about'>Acerca de</Link>
     </div>
 );
 
