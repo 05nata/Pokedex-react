@@ -4,6 +4,7 @@ import Header from '../../organisms/header/Header';
 import Navigation  from '../../organisms/navigation/Navigation';
 import MainContainer from '../../organisms/main-container/MainContainer';
 import Footer from '../../organisms/footer/Footer';
+import './DefaultLayout.css';
 
 /**
  * Default layout for site.
