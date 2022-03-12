@@ -8,7 +8,7 @@ import './NavItems.css';
  */
 const NavItems = () => (
     <div className="m-nav-items">
-        <Link className="m-nav-items__item" to='/about'>Acerca de</Link>
+        <Link className="m-nav-items__item" to='/about'>Información de</Link>
     </div>
 );
 
