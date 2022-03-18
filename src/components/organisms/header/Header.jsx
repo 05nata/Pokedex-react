@@ -5,6 +5,6 @@ import React from "react";
  * Componente para la cabecera de la pokedex. 
  * @returns {JSX.Element}
  */
-export const Header = () => <header></header>;
+const Header = () => <header></header>;
 
 export default Header;

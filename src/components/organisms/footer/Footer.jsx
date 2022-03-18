@@ -1,9 +1,10 @@
 import React from "react";
+import './Footer.css'
 
 /**
  * Footer Component
  * @returns {JSX.Element}
  */
-export const Footer = () => <footer></footer>;
+const Footer = () => <footer className="o-footer">&copy; POKEMON </footer>;
 
 export default Footer;

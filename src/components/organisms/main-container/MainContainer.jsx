@@ -5,10 +5,10 @@ import React from "react";
  * @param {{ children: React.ReactNode}} props
  * @returns {JSX.Element}
  */
-export const MainContainer = (props) => (
+const MainContainer = (props) => (
 <main>
     {props.children}
 </main>
 );
 
-export default MainContainer
+export default MainContainer;
