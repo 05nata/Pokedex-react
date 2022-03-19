@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+.m-nav-brand{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 3rem;
+}
+
+.m-nav-brand__image{
+    height: 100%;
+}
+
+.m-nav-brand__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    height: 100%;
+    padding: 0.5rem;
+}

@@ -1,0 +1,6 @@
+.m-nav-items__item {
+    width: max-content;
+    color:inherit;
+    text-decoration: none;
+    padding: 0.5rem;
+}
