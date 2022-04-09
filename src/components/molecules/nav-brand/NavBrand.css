@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--fonts-titles);
     height: 100%;
     padding: 0.5rem;
 }
