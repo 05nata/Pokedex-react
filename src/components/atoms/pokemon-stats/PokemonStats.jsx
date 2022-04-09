@@ -1,5 +1,6 @@
 import React from "react";
 import PokemonStat from "../pokemon-stat/PokemonStat";
+import './PokemonStats.css';
 
 /**
  * Pokemon stats elements

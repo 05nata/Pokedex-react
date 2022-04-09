@@ -5,5 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
+    height: 31rem;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
