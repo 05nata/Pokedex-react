@@ -1,4 +1,5 @@
 import React from 'react';
+import './PokemonImageContainer.css';
 
 /**
  * Pokemon image container component
@@ -7,7 +8,7 @@ import React from 'react';
 const PokemonImageContainer = () => (
     <div className='a-pokemon-image-container'>
         <img className='a-pokemon-image-container__image' 
-        src='' 
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/25.png"
         alt='Imagen del pokemon' />
     </div>
 );

@@ -1,0 +1,17 @@
+.a-pokemon-image-container{
+    height: 25rem;
+    width: 50%;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-pokemon-image-container__image{
+    max-height: 100%;
+}
+
+.a-pokemon-image-container__image--horizontal{
+    max-height: unset;
+    max-width: 100%;
+}
