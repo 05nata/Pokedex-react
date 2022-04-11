@@ -30,6 +30,6 @@
 
 .a-pokemon-title__name{
     overflow-x: auto;
-    flex: 1;
+    flex: unset;
     white-space: nowrap;
 }
