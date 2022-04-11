@@ -1,7 +1,8 @@
 import React from "react";
+import './PokemonStat.css';
 
 /**
- * Pokemon stat element
+ * Pokemon stat content
  * @returns {JSX.Element}
  */
 const PokemonStat = () => (
