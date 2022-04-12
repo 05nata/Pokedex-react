@@ -1,6 +1,6 @@
 # Pokedex-react
 
-**Versión:** 0.1
+**Versión:** 1.0.0
 
 Esta aplicación tiene la intención de ser una pokedex construida usando la liberia React como base y adicional consumir información de la [PokeAppi](https://pokeappi.co/).
 
