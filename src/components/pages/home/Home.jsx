@@ -8,8 +8,9 @@ import { Link } from 'react-router-dom';
  */
 const Home = () => (
     <DefaulLayout title='Home'>
-    <h1>Página De Inicio</h1>
-    <Link to='/pokemon/pikachu'>Ver detalles de Pikachu</Link>
+    <h1 className='p-home-name'>Página De Inicio</h1>
+    <Link className='p-home-link' to='/pokemon/pikachu'>Ver detalles de Pokemon</Link>
+    <img src='' alt='Imagen de bienvenida'/>
     </DefaulLayout>
     );
 

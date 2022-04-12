@@ -1,0 +1,35 @@
+.a-pokemon-title{
+    background-color: var(--color-white);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.a-pokemon-title__image-mask{
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    margin-right: 1rem;
+    max-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-pokemon-title__image{
+    max-height: 100%;
+}
+
+.a-pokemon-title__image--horizontal{
+    max-height: unset;
+    max-width: 100%;
+}
+
+.a-pokemon-title__name{
+    overflow-x: auto;
+    flex: unset;
+    white-space: nowrap;
+}

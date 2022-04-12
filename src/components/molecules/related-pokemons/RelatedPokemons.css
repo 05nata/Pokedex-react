@@ -1,0 +1,15 @@
+.m-related-pokemons{
+    background-color: var(--color-white);
+    display: flex;
+    height: 9rem;
+    margin-top: 1rem;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.m-related-pokemons__title{
+    font-size: 2rem;
+    text-align: center;
+    width: 30%;
+}

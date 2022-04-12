@@ -1,4 +1,5 @@
 import React from "react";
+import './MainContainer.css';
 
 /**
  * Main Container Component
@@ -6,7 +7,7 @@ import React from "react";
  * @returns {JSX.Element}
  */
 const MainContainer = (props) => (
-<main>
+<main className='o-main-container'>
     {props.children}
 </main>
 );
