@@ -4,12 +4,18 @@ import PokemonImegeContainer from 'components/atoms/pokemon-image-container/Poke
 import PokemonStats from 'components/atoms/pokemon-stats/PokemonStats';
 import './PokemonView.css';
 
-const PokemonView = (props) => (
+/**
+ * Pokemon view component
+ * @returns {JSX.Element}
+ */
+const PokemonView = (props) => {
+    const {pokemon} = props ;
+    return (
     <section className='m-pokemon-view'>
-        <PokemonTitle />
-        <PokemonImegeContainer />
-        <PokemonStats />
+        <PokemonTitle name = {pokemon.name} type = {pokemon.type} />
+        <PokemonImegeContainer image = {pokemon.image} />
+        <PokemonStats stats = {pokemon.stats} />
     </section>
-);
+)};
 
 export default PokemonView;

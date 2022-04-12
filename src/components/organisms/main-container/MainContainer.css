@@ -1,0 +1,19 @@
+.o-main-container{
+    background-color: var(--color-blue);
+    padding: 0rem 0rem 0rem;
+}
+
+.p-home-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    padding: 1rem;
+}
+
+.p-home-link{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

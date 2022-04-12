@@ -3,7 +3,8 @@ import SEO from 'components/organisms/seo/SEO';
 import Navigation  from 'components/organisms/navigation/Navigation';
 import MainContainer from 'components/organisms/main-container/MainContainer';
 import Footer from 'components/organisms/footer/Footer';
-import './DefaultLayout.css';
+import 'assets/css/global.css';
+import 'assets/css/colors.css';
 
 /**
  * Default layout for site.
