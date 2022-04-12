@@ -1,15 +1,23 @@
 import React from "react";
 import PokemonCard from "../pokemon-card/PokemonCard";
+import "./PokemonsCards.css";
 
 /**
- * Pokemons cards element
+ * Pokemons cards component
  * @returns {JSX.Element}
+ * @param {{cardsNames: string[]}} props;
  */
-const PokemonsCards = () => (
-    <ul className='a-pokemons-cards'>
-        <li> <PokemonCard /> </li>
-        <li> <PokemonCard /> </li>
+const PokemonsCards = (props) => {
+  const { cardsNames } = props;
+  return (
+    <ul className="a-pokemons-cards">
+      {cardsNames.map((value, index) => (
+        <li className="a-pokemons-cards__mask" key={index}>
+          <PokemonCard pokemonName={value} />
+        </li>
+      ))}
     </ul>
-);
+  );
+};
 
 export default PokemonsCards;
